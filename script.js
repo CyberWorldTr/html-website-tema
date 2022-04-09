@@ -5,7 +5,7 @@ function validate() {
     var password = document.getElementById("pass").value;
     if (username == "cyber@demo.com" && password == "cyber1") {
         alert("Hoşgeldin " + username);
-        window.location = "user.html"; //Gidilecek Sayfa
+        window.location = "user/index.html"; //Gidilecek Sayfa
         return false;
     } else {
         deneme--;
