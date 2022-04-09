@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberWorldTr</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #778899;height: 7%;">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="flex-grow: 1;" href="index.html">Cyber Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto my-2 my-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link " aria-current="page" href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#programlama">Programlama</a>
+
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link menu-link" aria-current="page" href="index.html">İletişim</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button type="button" class="btn login-button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Giriş Yap</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="modal fade" tabindex="-1" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center">Cyber Giriş Yap</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form name="girisFormu" method="post" name="myform">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email Adresi</label>
+                            <input type="email" class="form-control" id="user" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Örnek Parola Ve Kullanıcı Adı: cyber@demo.com - cyber1
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Şifre</label>
+                            <input type="password" class="form-control" id="pass">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Beni Hatırla</label>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <input type="button" value="Giriş" id="submit" class="btn btn-danger" onclick="validate()" />
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="main" style="background-color: #808080;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slide4.jpg" class="d-block w-100 slide-height" alt="slide1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>CyberWorldTr'ye Hoş Geldiniz</h5>
+                        <p>Lütfen Giriş Yapınız</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide5.jpg" class="d-block w-100 slide-height" alt="slide2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide6.jpg" class="d-block w-100 slide-height" alt="slide3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="text-center mt-5">
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1">Yazılım Nedir?</a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                    aria-controls="multiCollapseExample2">Yazılıma Nerden Başlamalı?</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quasi ratione quod?
+                            Eaque, facilis minima, placeat dicta in animi repellendus ad rerum libero culpa, id est?
+                            Necessitatibus eveniet reiciendis in..
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint iure culpa aperiam
+                            temporibus omnis laborum nihil labore! Inventore sint quis temporibus! Dicta perspiciatis
+                            libero voluptates eveniet, possimus eaque adipisci.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex card-main" id="programlama" style="margin-top: -10px;">
+            <div class="card-second card text-center" style="width: 25rem; margin: 30px;">
+                <img src="img/slide1.jpg" class="card-img-top" alt="slide2" style="height: 180px;">
+                <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">Php Programlama Örnerkleri İçin Devama Tıklayabilirsiniz.</p>
+                    <a href="#" class="btn btn-primary">Devamını Gör</a>
+                </div>
+            </div>
+            <div class="card-second card text-center" style="width: 25rem; margin: 30px;">
+                <img src="img/slide3.jpg" class="card-img-top" alt="slide3" style="height: 180px;">
+                <div class="card-body">
+                    <h5 class="card-title">JAVA</h5>
+                    <p class="card-text">JAVA Programlama Örnerkleri İçin Devama Tıklayabilirsiniz.</p>
+                    <a href="#" class="btn btn-primary">Devamını Gör</a>
+                </div>
+            </div>
+            <div class="card-second card text-center" style="width: 25rem; margin: 30px;">
+                <img src="img/slide2.jpg" class="card-img-top" alt="slide1" style="height: 180px;">
+                <div class="card-body">
+                    <h5 class="card-title">PYTHON</h5>
+                    <p class="card-text">Python Programlama Örnerkleri İçin Devama Tıklayabilirsiniz.</p>
+                    <a href="#" class="btn btn-primary">Devamını Gör</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex card-main" id="hakkimizda">
+            <div class="card-second  card text-center" style="width: 25rem; margin: 30px;">
+                <img src="img/slide1.jpg" class="card-img-top" alt="slide2" style="height: 180px;">
+                <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">Php Programlama Örnerkleri İçin Devama Tıklayabilirsiniz.</p>
+                    <a href="#" class="btn btn-primary">Devamını Gör</a>
+                </div>
+            </div>
+            <div class="card-second card text-center" style="width: 25rem; margin: 30px;">
+                <img src="img/slide3.jpg" class="card-img-top" alt="slide3" style="height: 180px;">
+                <div class="card-body">
+                    <h5 class="card-title">JAVA</h5>
+                    <p class="card-text">JAVA Programlama Örnerkleri İçin Devama Tıklayabilirsiniz.</p>
+                    <a href="#" class="btn btn-primary">Devamını Gör</a>
+                </div>
+            </div>
+            <div class="card-second card text-center" style="width: 25rem; margin: 30px;">
+                <img src="img/slide2.jpg" class="card-img-top" alt="slide1" style="height: 180px;">
+                <div class="card-body">
+                    <h5 class="card-title">PYTHON</h5>
+                    <p class="card-text">Python Programlama Örnerkleri İçin Devama Tıklayabilirsiniz.</p>
+                    <a href="#" class="btn btn-primary">Devamını Gör</a>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+        <div class="about" id="hakkimizda">
+            <h2 class="text-center">Hakkımızda</h2>
+            <div class="col-6 d-flex">
+                <img src="img/slide1.jpg" width="100%" alt="test" style="border-radius: 7px;">
+                <div class="col-12 text-center" style="word-wrap: break-word;align-self: center;">
+                    <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus
+                        quos nobis nisi
+                        sit. Nisi minima architecto deserunt magnam totam incidunt dolor fugiat, tenetur dolorem rerum,
+                        atque dolorum aliquam cumque.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cum dolores facilis sequi nihil
+                        laboriosam nisi ullam inventore quia nulla assumenda suscipit aliquam explicabo vel rerum
+                        maiores qui, porro aut.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem adipisci minus
+                        vero velit obcaecati voluptates mollitia. Eos consectetur illum dolores necessitatibus?
+                        Obcaecati exercitationem, saepe modi possimus error officia fuga?</p>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="col-6 d-flex">
+                <div class="col-12 text-center" style="word-wrap: break-word;align-self: center;">
+                    <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus
+                        quos nobis nisi
+                        sit. Nisi minima architecto deserunt magnam totam incidunt dolor fugiat, tenetur dolorem rerum,
+                        atque dolorum aliquam cumque.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cum dolores facilis sequi nihil
+                        laboriosam nisi ullam inventore quia nulla assumenda suscipit aliquam explicabo vel rerum
+                        maiores qui, porro aut.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem adipisci minus
+                        vero velit obcaecati voluptates mollitia. Eos consectetur illum dolores necessitatibus?
+                        Obcaecati exercitationem, saepe modi possimus error officia fuga?</p>
+                </div>
+                <img src="img/slide4.jpg" width="100%" style="border-radius: 7px;" alt="test">
+            </div>
+        </div>
+
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 mb-4 mb-md-0 text-center">
+                    <h5 class="text-uppercase">Cyber Website</h5>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, ipsam minima nam quod nemo
+                        earum, perspiciatis aperiam saepe rem aut ullam ab,
+                        sapiente expedita voluptatibus molestias eius voluptates vero? Perspiciatis.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="https://github.com/CyberWorldTr" target="_blank">CyberWorldTr</a>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+</html>

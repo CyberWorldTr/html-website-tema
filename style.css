@@ -1,0 +1,61 @@
+*{
+    scroll-behavior: smooth;
+}
+.nav-item{
+    list-style: none;
+    background-color: rgba(210, 210, 210, 0.212);
+    width: 200px !important;
+    border-radius: 10px;
+    text-align: center;
+}
+.nav-item:hover{
+    background-color: rgba(210, 210, 210, 0.644);
+    transition-duration: 0.5s;
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+.carousel-inner{
+    text-align: -webkit-center;
+}
+.slide-height{
+    height: 600px;
+}
+.card-main{
+    margin-top: 60px;
+    justify-content: center;
+}
+.login-button{
+    width: 120px !important;
+    color: rgba(255, 255, 255, 0.774) !important;
+    background-color: #8fbc8fcc !important;
+    border-radius: 50px !important;
+    box-shadow: 3px 3px #888888;
+}
+.login-button:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: #8fbc8f !important;
+    box-shadow: 4px 2px #888888 !important;
+}
+.login-button:focus{
+    border: none !important;
+    box-shadow: 4px 2px #888888 !important;
+}
+.card-second{
+    background-color: #fffaf0 !important;
+    box-shadow: 5px 3px #00000085;
+}
+.card-second:hover{
+    background-color: #fffaf0b6 !important;
+    transition-duration: .5s;
+    box-shadow: none;
+}
+.about{
+    background-image: url('bg1.png');
+}
+.about-text{
+    width: 700px;
+    margin-left: 15%;
+    font-size: 25px;
+    color: black;
+}
