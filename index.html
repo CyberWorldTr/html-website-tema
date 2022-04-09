@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +18,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html" style="flex-grow:1;">
                 <img src="img/logo.svg" alt="" width="50" height="50">
-              </a>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,7 +37,7 @@
                         <a class="nav-link" aria-current="page" href="#hakkimizda">Hakkımızda</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link menu-link" aria-current="page" href="index.html">İletişim</a>
+                        <a class="nav-link menu-link" aria-current="page" href="#contact">İletişim</a>
                     </li>
                 </ul>
                 <div class="d-flex">
@@ -241,7 +242,26 @@
                 <img src="img/slide4.jpg" width="100%" style="border-radius: 7px;" alt="test">
             </div>
         </div>
-
+        <div class="col-12 form-main">
+        <div class="contact text-center col-4" id="contact">
+            <h2 class="mt-4" style="margin-top: 500px;">İletişim</h2>
+            <form action="" style="margin-top: 50px;">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Ad Soyad</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Cyber World" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Eposta</label>
+                    <input type="email" class="form-control" placeholder="cyber@demo.com" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Örnek Mesaj" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-4 col-12">Submit</button>
+            </form>
+        </div>
+    </div>
     </div>
     <footer class="bg-light text-center text-lg-start">
         <div class="container p-4">

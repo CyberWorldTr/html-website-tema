@@ -59,3 +59,10 @@
     font-size: 25px;
     color: black;
 }
+.form-main{
+    margin-top: 50px;
+    background-image: url('img/form-bg.jpg');
+    height: 500px;
+    text-align: -webkit-center;
+    color: white;
+}
