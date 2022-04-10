@@ -12,6 +12,6 @@ Web Teması Her Gün Güncellenecektir! Bundan Dolayı Her Girişte Pull Çekmey
  Yanlız Görseller Telif Hakkına Neden Olabilir!
 
 ## Güncellemeler
-Giriş Yap Bölümü Eklendi!
-FontAvesome İle İconlar Eklendi!
-User Sayfa Tasarımı Devam Ediyor!
+Giriş Yap Bölümü Eklendi! <br>
+FontAvesome İle İconlar Eklendi! <br>
+User Sayfa Tasarımı Devam Ediyor! <br>
