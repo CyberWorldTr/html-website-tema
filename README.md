@@ -8,7 +8,7 @@ Kurulum
 Web Teması Her Gün Güncellenecektir! Bundan Dolayı Her Girişte Pull Çekmeyi Unutmayınız!
 
 ## Kullanım
- Benden Tarafta Herhangi Bir Telif Hakkı Yada Kullanım Kısıtlaması Bulunmamakta Sitenin En Altında Yazan Copyright Bölümü İsteğe Göre Değiştirilebilmektedir.
+ Benden Tarafta Herhangi Bir Telif Hakkı Yada Kullanım Kısıtlaması Bulunmamakta Sitenin En Altında Yazan Copyright Bölümü İsteğe Göre Değiştirilebilmektedir. <br>
  Yanlız Görseller Telif Hakkına Neden Olabilir!
 
 ## Güncellemeler
