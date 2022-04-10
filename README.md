@@ -10,3 +10,8 @@ Web Teması Her Gün Güncellenecektir! Bundan Dolayı Her Girişte Pull Çekmey
 ## Kullanım
  Benden Tarafta Herhangi Bir Telif Hakkı Yada Kullanım Kısıtlaması Bulunmamakta Sitenin En Altında Yazan Copyright Bölümü İsteğe Göre Değiştirilebilmektedir.
  Yanlız Görseller Telif Hakkına Neden Olabilir!
+
+## Güncellemeler
+Giriş Yap Bölümü Eklendi!
+FontAvesome İle İconlar Eklendi!
+User Sayfa Tasarımı Devam Ediyor!
