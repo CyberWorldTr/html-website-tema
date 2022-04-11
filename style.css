@@ -12,6 +12,7 @@ body{
 .dark-mode .card-second{
     color: whitesmoke;
     background-color: rgb(36, 34, 34) !important;
+    box-shadow: 2px 2px rgba(202, 201, 201, 0.664);
 }
 .dark-mode .card-second:hover{
     background-color: #4b4a4ab6 !important;
@@ -105,6 +106,7 @@ body{
     background-color: #e4e2e2 !important;
     box-shadow: 5px 3px #00000085;
     transition-duration: .5s;
+    animation: card 2s 1;
 }
 .card-second:hover{
     background-color: #fffaf0b6 !important;
@@ -138,7 +140,7 @@ body{
 .contact{
     position: absolute;
     left: 32%;
-    margin-top: 40px;
+    margin-top: 90px;
     align-items: center;
     color: white;
     font-family: "Times New Roman", Times, serif;
@@ -146,4 +148,9 @@ body{
 }
 .copyright{
     background-color: rgba(0, 0, 0, 0.2);
+}
+/* Animasyon Bölümü*/
+@keyframes card {
+    0%   {width: 20rem;}
+  100% {width: 25rem;}
 }

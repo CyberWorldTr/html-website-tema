@@ -1,4 +1,4 @@
-
+//Giriş Deneme Ve Sayfa Yönlendirme
 var deneme = 3; //deneme sayısı
 function validate() {
     var username = document.getElementById("user").value;
