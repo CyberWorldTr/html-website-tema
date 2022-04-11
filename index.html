@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #778899;height: 7%;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #5c7085;height: 7%;">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html" style="flex-grow:1;">
                 <img src="img/logo.svg" alt="" width="50" height="50">
@@ -27,20 +27,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto my-2 my-lg-0">
                     <li class="nav-item me-3">
-                        <a class="nav-link " aria-current="page" href="index.html"><i class="fa fa-home me-2"></i> Ana Sayfa</a>
+                        <a class="nav-link " aria-current="page" href="index.html"><i class="fa fa-home me-2"></i> Ana
+                            Sayfa</a>
                     </li>
                     <li class="nav-item me-3">
                         <a class="nav-link" href="#programlama"><i class="fa fa-code me-2"></i>Programlama</a>
 
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link" aria-current="page" href="#hakkimizda"><i class="fa fa-address-card me-2"></i>Hakkımızda</a>
+                        <a class="nav-link" aria-current="page" href="#hakkimizda"><i
+                                class="fa fa-address-card me-2"></i>Hakkımızda</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link menu-link" aria-current="page" href="#contact"><i class="fa fa-phone-square me-2"></i>İletişim</a>
+                        <a class="nav-link menu-link" aria-current="page" href="#contact"><i
+                                class="fa fa-phone-square me-2"></i>İletişim</a>
                     </li>
                 </ul>
                 <div class="d-flex">
+                    <div class="form-check form-switch mt-2 me-2 dark-switch">
+                        <button onclick="darkMode()" class="btn  mode-icon"><i id="modeIcon"
+                                class="fa fa-sun-o"></i></button>
+                    </div>
                     <button type="button" class="btn login-button" data-bs-toggle="modal"
                         data-bs-target="#exampleModal"><i class="fa fa-sign-in me-2"></i>Giriş Yap</button>
                 </div>
@@ -80,7 +87,7 @@
             </div>
         </div>
     </div>
-    <div class="main" style="background-color: #808080;">
+    <div class="main">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -208,63 +215,49 @@
         <div>
         </div>
         <div class="about" id="hakkimizda">
-            <h2 class="text-center">Hakkımızda</h2>
-            <div class="col-6 d-flex">
-                <img src="img/slide1.jpg" width="100%" alt="test" style="border-radius: 7px;">
-                <div class="col-12 text-center" style="word-wrap: break-word;align-self: center;">
-                    <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus
-                        quos nobis nisi
-                        sit. Nisi minima architecto deserunt magnam totam incidunt dolor fugiat, tenetur dolorem rerum,
-                        atque dolorum aliquam cumque.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cum dolores facilis sequi nihil
-                        laboriosam nisi ullam inventore quia nulla assumenda suscipit aliquam explicabo vel rerum
-                        maiores qui, porro aut.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem adipisci minus
-                        vero velit obcaecati voluptates mollitia. Eos consectetur illum dolores necessitatibus?
-                        Obcaecati exercitationem, saepe modi possimus error officia fuga?</p>
-                </div>
-            </div>
-        </div>
-        <div class="about">
-            <div class="col-6 d-flex">
-                <div class="col-12 text-center" style="word-wrap: break-word;align-self: center;">
-                    <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus
-                        quos nobis nisi
-                        sit. Nisi minima architecto deserunt magnam totam incidunt dolor fugiat, tenetur dolorem rerum,
-                        atque dolorum aliquam cumque.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cum dolores facilis sequi nihil
-                        laboriosam nisi ullam inventore quia nulla assumenda suscipit aliquam explicabo vel rerum
-                        maiores qui, porro aut.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem adipisci minus
-                        vero velit obcaecati voluptates mollitia. Eos consectetur illum dolores necessitatibus?
-                        Obcaecati exercitationem, saepe modi possimus error officia fuga?</p>
-                </div>
-                <img src="img/slide4.jpg" width="100%" style="border-radius: 7px;" alt="test">
+            <div class="col-12 text-center about-main" style="word-wrap: break-word;align-self: center;">
+                <h2 class="text-center about-head">Hakkımızda</h2>
+                <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus
+                    quos nobis nisi
+                    sit. Nisi minima architecto deserunt magnam totam incidunt dolor fugiat, tenetur dolorem rerum,
+                    atque dolorum aliquam cumque.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cum dolores facilis sequi nihil
+                    laboriosam nisi ullam inventore quia nulla assumenda suscipit aliquam explicabo vel rerum
+                    maiores qui, porro aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem adipisci minus
+                    vero velit obcaecati voluptates mollitia. Eos consectetur illum dolores necessitatibus?
+                    Obcaecati exercitationem, saepe modi possimus error officia fuga?Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Magni, velit vero vitae voluptas voluptates quae omnis rerum
+                    aliquam a similique eos. Eligendi esse quisquam dolores voluptas repellat amet, atque
+                    doloribus!1</p>
             </div>
         </div>
         <div class="col-12 form-main">
-        <div class="contact text-center col-4" id="contact">
-            <h2 class="mt-4">İletişim</h2>
-            <form action="" style="margin-top: 50px;">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Ad Soyad</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Cyber World" aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Eposta</label>
-                    <input type="email" class="form-control" placeholder="cyber@demo.com" id="exampleInputPassword1">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Örnek Mesaj" rows="3"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary mb-4 col-12">Submit</button>
-            </form>
+            <div class="contact  col-4" id="contact">
+                <h2><i class="fa fa-phone"></i> İletişim</h2>
+                <form action="" style="margin-top: 20px;" class="text-start">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Ad Soyad</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Cyber World"
+                            aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Eposta</label>
+                        <input type="email" class="form-control" placeholder="cyber@demo.com" id="exampleInputPassword1"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Örnek Mesaj"
+                            rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-4 col-12">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
-    </div>
-    <footer class="bg-light text-center text-lg-start">
-        <div class="container p-4">
+    <footer class="text-center text-lg-start">
+        <div class=" p-4 footer-dark">
             <div class="row">
                 <div class="col-lg-12 col-md-12 mb-4 mb-md-0 text-center">
                     <h5 class="text-uppercase">Cyber Website</h5>
@@ -276,7 +269,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="copyright text-center p-3">
             © 2022 Copyright:
             <a class="text-dark" href="https://github.com/CyberWorldTr" target="_blank">CyberWorldTr</a>
         </div>

@@ -1,6 +1,64 @@
 *{
     scroll-behavior: smooth;
 }
+body{
+    color: black !important;
+    background-color: whitesmoke !important;
+}
+.dark-mode {
+    background-color: black !important;
+    color: whitesmoke !important;
+  }
+.dark-mode .card-second{
+    color: whitesmoke;
+    background-color: rgb(36, 34, 34) !important;
+}
+.dark-mode .card-second:hover{
+    background-color: #4b4a4ab6 !important;
+    transition-duration: .5s;
+    box-shadow: none;
+}
+.dark-mode .copyright{
+    background-color: rgba(255, 247, 247, 0.2) !important;
+    color: whitesmoke !important;
+}
+.dark-mode .copyright a{
+    color: whitesmoke !important;
+}
+.dark-mode .footer-dark{
+    background-color: rgba(204, 194, 194, 0.664) !important;
+}
+.dark-mode .about{
+    background-image: url('/img/hakkimizda-dark.png');
+}
+.dark-mode .about-head{
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 4px #3a393981;
+}
+.dark-mode .mode-icon{
+    background-color: rgba(0, 0, 0, 0.671) !important;
+    color: rgba(255, 255, 255, 0.637) !important;
+    box-shadow: none !important;
+    box-shadow: 2px 2px rgba(133, 201, 228, 0.623) !important;
+}
+.dark-mode .mode-icon:hover{
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 2px 3px rgba(133, 201, 228, 0.884) !important;
+}
+.mode-icon{
+    border-radius: 50px !important;
+    color: rgba(255, 255, 0, 0.651) !important;
+    background-color: rgba(133, 201, 228, 0.623) !important;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.671) !important;
+}
+.mode-icon:hover{
+    border-radius: 50px !important;
+    color: yellow !important;
+    background-color: #70bcda !important;
+    box-shadow: 2px 3px rgb(0, 0, 0) !important;
+}
 .nav-item{
     list-style: none;
     background-color: rgba(210, 210, 210, 0.212);
@@ -8,6 +66,7 @@
     border-radius: 10px;
     text-align: center;
     transition-duration: 0.5s;
+    box-shadow: 3px 3px #888888;
 }
 .nav-item:hover{
     background-color: rgba(210, 210, 210, 0.644);
@@ -43,7 +102,7 @@
     box-shadow: 4px 2px #888888 !important;
 }
 .card-second{
-    background-color: #fffaf0 !important;
+    background-color: #e4e2e2 !important;
     box-shadow: 5px 3px #00000085;
     transition-duration: .5s;
 }
@@ -53,18 +112,38 @@
     box-shadow: none;
 }
 .about{
-    background-image: url('bg1.png');
+    background-image: url('/img/hakkimizda.png');
+    height: 600px;
+}
+.about-main{
+    position: absolute;
+    margin-top: 120px;
 }
 .about-text{
-    width: 700px;
-    margin-left: 15%;
+    text-align: center;
     font-size: 25px;
-    color: black;
+    text-shadow: 1px 1px #3a393981;
+    font-weight: 600;
+}
+.about-head{
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 3px #3a393981;
 }
 .form-main{
-    margin-top: 50px;
     background-image: url('img/form-bg.jpg');
-    height: 500px;
+    height: 600px;
     text-align: -webkit-center;
+}
+.contact{
+    position: absolute;
+    left: 32%;
+    margin-top: 40px;
+    align-items: center;
     color: white;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 5px 7px #3a393981;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.2);
 }
