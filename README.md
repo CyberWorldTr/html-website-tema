@@ -15,3 +15,6 @@ Web Teması Her Gün Güncellenecektir! Bundan Dolayı Her Girişte Pull Çekmey
 Giriş Yap Bölümü Eklendi! <br>
 FontAvesome İle İconlar Eklendi! <br>
 User Sayfa Tasarımı Devam Ediyor! <br>
+Genel Düzenleme Yapıldı!! <br>
+Dark Mode Eklendi! <br>
+
