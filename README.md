@@ -17,4 +17,5 @@ FontAvesome İle İconlar Eklendi! <br>
 User Sayfa Tasarımı Devam Ediyor! <br>
 Genel Düzenleme Yapıldı!! <br>
 Dark Mode Eklendi! <br>
+Kullanıcı Arayüzü Eklendi!<br>
 
